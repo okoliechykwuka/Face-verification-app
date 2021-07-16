@@ -17,7 +17,7 @@ Subsequent response definitions will only detail the expected value of the `data
 **API Endpoints:**
 
 * '/' :   return the facial verification documentation
-* face_verification : return a Name, Distance, and Verification(true/false) for the bvn & selfie  images
+* face_verification : return a Message, Distance, and Verification(true/false) for the bvn & selfie  images
 
 
 # Installation
