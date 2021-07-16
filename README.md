@@ -21,7 +21,8 @@ Subsequent response definitions will only detail the expected value of the `data
 
 # Installation
 Install [face_recognition](https://github.com/ageitgey/face_recognition) together with [dlib](http://dlib.net/) first.
-Then run: pip install -r requirements.txt
+
+**Then run:** `pip install -r requirements.txt`
 
 
 ## Definition
