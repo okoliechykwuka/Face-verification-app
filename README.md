@@ -51,36 +51,45 @@ Install [face_recognition](https://github.com/ageitgey/face_recognition) togethe
 
 ```
 {
-    "identifier": "floor-lamp",
-    "name": "Floor Lamp",
-    "device_type": "switch",
-    "controller_gateway": "192.1.68.0.2"
+    "distance": 0.507,
+    "message": "verified successfully",
+    "status": false
+}
+
+{
+    "distance": 0.34,
+    "message": "verified successfully",
+    "status": true
+}
+
+{
+    "distance": null,
+    "message": "Invalid JSON File",
+    "status": null
 }
 ```
 
 # How to Run
 ## Prerequisites
-Prepare some known faces as a database for face_rec API in sample_images folder, and modify known_faces in face_util.py accordingly.
+Prepare some known faces as a database or as a url.
+
 ```
 # Each face is tuple of (Name,sample image)    
-known_faces = [('Obama','sample_images/obama.jpg'), 
-               ('Peter','sample_images/peter.jpg'),
-              ]
+{
+    "bvnImageUrl": "https://example.com/live/1.jpg",
+    "selfieUrl": "https://example2.com/live/1.jpeg"
+  }
 ```
 ## Run API Server
-python flask_server.py
+python app.py
 
 
-## Run API client - Web
-Simply open a web browser and enter:
+## Run API client - Postman
+Simply open a Postman  and enter:
 
-http://127.0.0.1:5001/face_rec
+http://localhost:5002/face_verification
 
-http://127.0.0.1:5001/face_match
 
-and upload image files.
-
-## Run API client - Python
-python demo_client.py 
+Select `Post Request` and click send.
 
 
