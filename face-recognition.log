@@ -1,0 +1,581 @@
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-214-445
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:04:33] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:04:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:04:52] "[37mGET /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:05:55] "[37mGET /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:06:01] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:06:43] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:06:52] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/Face-project/face_verification/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-214-445
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:07:32] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:08:14] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/Face-project/face_verification/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-214-445
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:08:39] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/Face-project/face_verification/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-214-445
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:12:15] "[35m[1mPOST /face_verification HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:14:03] "[31m[1mPOST /face_verification HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:14:11] "[35m[1mPOST /face_verification HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/Face-project/face_verification/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-214-445
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:14:44] "[35m[1mPOST /face_verification HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/Face-project/face_verification/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-214-445
+DEBUG:PIL.TiffImagePlugin:tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Apple\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'iPhone 6\x00'
+DEBUG:PIL.TiffImagePlugin:tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 126 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 134 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 142 - value: b'12.5.2\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 150 - value: b'2021:04:14 10:04:04\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xaa'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureTime (33434) - type: rational (5) Tag Location: 184 - Data Location: 548 - value: b'\x00\x00\x00\x01\x00\x00\x00\x11'
+DEBUG:PIL.TiffImagePlugin:tag: FNumber (33437) - type: rational (5) Tag Location: 196 - Data Location: 556 - value: b'\x00\x00\x00\x0b\x00\x00\x00\x05'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+DEBUG:PIL.TiffImagePlugin:tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x04\xe2'
+DEBUG:PIL.TiffImagePlugin:tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+DEBUG:PIL.TiffImagePlugin:tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 244 - Data Location: 564 - value: b'2021:04:14 10:04:04\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTImeDigitized (36868) - type: string (2) Tag Location: 256 - Data Location: 584 - value: b'2021:04:14 10:04:04\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 280 - Data Location: 604 - value: b'\x00\x01\x81\x84\x00\x00^\xfb'
+DEBUG:PIL.TiffImagePlugin:tag: ApertureValue (37378) - type: rational (5) Tag Location: 292 - Data Location: 612 - value: b'\x00\x02\xd5\x0b\x00\x01>\xb3'
+DEBUG:PIL.TiffImagePlugin:tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 304 - Data Location: 620 - value: b'\xff\xff\x9cY\x00\x00Vg'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 316 - Data Location: 628 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+DEBUG:PIL.TiffImagePlugin:tag: Flash (37385) - type: short (3) - value: b'\x00 '
+DEBUG:PIL.TiffImagePlugin:tag: FocalLength (37386) - type: rational (5) Tag Location: 352 - Data Location: 636 - value: b'\x00\x00\x005\x00\x00\x00\x14'
+DEBUG:PIL.TiffImagePlugin:tag: MakerNote (37500) - type: undefined (7) Tag Location: 364 - Data Location: 644 - value: <table: 336 bytes>
+DEBUG:PIL.TiffImagePlugin:tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'805\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'805\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+DEBUG:PIL.TiffImagePlugin:tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x03\xc0'
+DEBUG:PIL.TiffImagePlugin:tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x05\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+DEBUG:PIL.TiffImagePlugin:tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1f'
+DEBUG:PIL.TiffImagePlugin:tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: LensSpecification (42034) - type: rational (5) Tag Location: 520 - Data Location: 980 - value: b'\x00\x153&\x00\x07\xff\xfb\x00\x153&\x00\x07\xff\xfb\x00\x00\x00\x0b\x00\x00\x00\x05\x00\x00\x00\x0b\x00\x00\x00\x05'
+DEBUG:PIL.TiffImagePlugin:tag: LensMake (42035) - type: string (2) Tag Location: 532 - Data Location: 1012 - value: b'Apple\x00'
+DEBUG:PIL.TiffImagePlugin:tag: LensModel (42036) - type: string (2) Tag Location: 544 - Data Location: 1018 - value: <table: 35 bytes>
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:19:03] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/Face-project/face_verification/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-214-445
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:19:48] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/Face-project/face_verification/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-214-445
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/Face-project/face_verification/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-214-445
+DEBUG:PIL.TiffImagePlugin:tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Apple\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'iPhone 6\x00'
+DEBUG:PIL.TiffImagePlugin:tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 126 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 134 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 142 - value: b'12.5.2\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 150 - value: b'2021:04:14 10:04:04\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xaa'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureTime (33434) - type: rational (5) Tag Location: 184 - Data Location: 548 - value: b'\x00\x00\x00\x01\x00\x00\x00\x11'
+DEBUG:PIL.TiffImagePlugin:tag: FNumber (33437) - type: rational (5) Tag Location: 196 - Data Location: 556 - value: b'\x00\x00\x00\x0b\x00\x00\x00\x05'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+DEBUG:PIL.TiffImagePlugin:tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x04\xe2'
+DEBUG:PIL.TiffImagePlugin:tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+DEBUG:PIL.TiffImagePlugin:tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 244 - Data Location: 564 - value: b'2021:04:14 10:04:04\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTImeDigitized (36868) - type: string (2) Tag Location: 256 - Data Location: 584 - value: b'2021:04:14 10:04:04\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 280 - Data Location: 604 - value: b'\x00\x01\x81\x84\x00\x00^\xfb'
+DEBUG:PIL.TiffImagePlugin:tag: ApertureValue (37378) - type: rational (5) Tag Location: 292 - Data Location: 612 - value: b'\x00\x02\xd5\x0b\x00\x01>\xb3'
+DEBUG:PIL.TiffImagePlugin:tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 304 - Data Location: 620 - value: b'\xff\xff\x9cY\x00\x00Vg'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 316 - Data Location: 628 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+DEBUG:PIL.TiffImagePlugin:tag: Flash (37385) - type: short (3) - value: b'\x00 '
+DEBUG:PIL.TiffImagePlugin:tag: FocalLength (37386) - type: rational (5) Tag Location: 352 - Data Location: 636 - value: b'\x00\x00\x005\x00\x00\x00\x14'
+DEBUG:PIL.TiffImagePlugin:tag: MakerNote (37500) - type: undefined (7) Tag Location: 364 - Data Location: 644 - value: <table: 336 bytes>
+DEBUG:PIL.TiffImagePlugin:tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'805\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'805\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+DEBUG:PIL.TiffImagePlugin:tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x03\xc0'
+DEBUG:PIL.TiffImagePlugin:tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x05\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+DEBUG:PIL.TiffImagePlugin:tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1f'
+DEBUG:PIL.TiffImagePlugin:tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: LensSpecification (42034) - type: rational (5) Tag Location: 520 - Data Location: 980 - value: b'\x00\x153&\x00\x07\xff\xfb\x00\x153&\x00\x07\xff\xfb\x00\x00\x00\x0b\x00\x00\x00\x05\x00\x00\x00\x0b\x00\x00\x00\x05'
+DEBUG:PIL.TiffImagePlugin:tag: LensMake (42035) - type: string (2) Tag Location: 532 - Data Location: 1012 - value: b'Apple\x00'
+DEBUG:PIL.TiffImagePlugin:tag: LensModel (42036) - type: string (2) Tag Location: 544 - Data Location: 1018 - value: <table: 35 bytes>
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:21:59] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/Face-project/face_verification/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-214-445
+DEBUG:PIL.TiffImagePlugin:tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Apple\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'iPhone 6\x00'
+DEBUG:PIL.TiffImagePlugin:tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 126 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 134 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 142 - value: b'12.5.2\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 150 - value: b'2021:04:14 10:04:04\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xaa'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureTime (33434) - type: rational (5) Tag Location: 184 - Data Location: 548 - value: b'\x00\x00\x00\x01\x00\x00\x00\x11'
+DEBUG:PIL.TiffImagePlugin:tag: FNumber (33437) - type: rational (5) Tag Location: 196 - Data Location: 556 - value: b'\x00\x00\x00\x0b\x00\x00\x00\x05'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+DEBUG:PIL.TiffImagePlugin:tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x04\xe2'
+DEBUG:PIL.TiffImagePlugin:tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+DEBUG:PIL.TiffImagePlugin:tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 244 - Data Location: 564 - value: b'2021:04:14 10:04:04\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTImeDigitized (36868) - type: string (2) Tag Location: 256 - Data Location: 584 - value: b'2021:04:14 10:04:04\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 280 - Data Location: 604 - value: b'\x00\x01\x81\x84\x00\x00^\xfb'
+DEBUG:PIL.TiffImagePlugin:tag: ApertureValue (37378) - type: rational (5) Tag Location: 292 - Data Location: 612 - value: b'\x00\x02\xd5\x0b\x00\x01>\xb3'
+DEBUG:PIL.TiffImagePlugin:tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 304 - Data Location: 620 - value: b'\xff\xff\x9cY\x00\x00Vg'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 316 - Data Location: 628 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+DEBUG:PIL.TiffImagePlugin:tag: Flash (37385) - type: short (3) - value: b'\x00 '
+DEBUG:PIL.TiffImagePlugin:tag: FocalLength (37386) - type: rational (5) Tag Location: 352 - Data Location: 636 - value: b'\x00\x00\x005\x00\x00\x00\x14'
+DEBUG:PIL.TiffImagePlugin:tag: MakerNote (37500) - type: undefined (7) Tag Location: 364 - Data Location: 644 - value: <table: 336 bytes>
+DEBUG:PIL.TiffImagePlugin:tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'805\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'805\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+DEBUG:PIL.TiffImagePlugin:tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x03\xc0'
+DEBUG:PIL.TiffImagePlugin:tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x05\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+DEBUG:PIL.TiffImagePlugin:tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1f'
+DEBUG:PIL.TiffImagePlugin:tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: LensSpecification (42034) - type: rational (5) Tag Location: 520 - Data Location: 980 - value: b'\x00\x153&\x00\x07\xff\xfb\x00\x153&\x00\x07\xff\xfb\x00\x00\x00\x0b\x00\x00\x00\x05\x00\x00\x00\x0b\x00\x00\x00\x05'
+DEBUG:PIL.TiffImagePlugin:tag: LensMake (42035) - type: string (2) Tag Location: 532 - Data Location: 1012 - value: b'Apple\x00'
+DEBUG:PIL.TiffImagePlugin:tag: LensModel (42036) - type: string (2) Tag Location: 544 - Data Location: 1018 - value: <table: 35 bytes>
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:23:27] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/Face-project/face_verification/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-214-445
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:25:36] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:25:45] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:25:58] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/Face-project/face_verification/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-214-445
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:26:33] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/Face-project/face_verification/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-214-445
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/Face-project/face_verification/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-214-445
+DEBUG:PIL.TiffImagePlugin:tag: Make (271) - type: string (2) Tag Location: 22 - Data Location: 110 - value: b'Apple\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 116 - value: b'iPhone 6\x00'
+DEBUG:PIL.TiffImagePlugin:tag: XResolution (282) - type: rational (5) Tag Location: 46 - Data Location: 126 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Location: 58 - Data Location: 134 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 82 - Data Location: 142 - value: b'12.5.2\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTime (306) - type: string (2) Tag Location: 94 - Data Location: 150 - value: b'2021:04:14 10:04:04\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\xaa'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureTime (33434) - type: rational (5) Tag Location: 184 - Data Location: 548 - value: b'\x00\x00\x00\x01\x00\x00\x00\x11'
+DEBUG:PIL.TiffImagePlugin:tag: FNumber (33437) - type: rational (5) Tag Location: 196 - Data Location: 556 - value: b'\x00\x00\x00\x0b\x00\x00\x00\x05'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x02'
+DEBUG:PIL.TiffImagePlugin:tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\x04\xe2'
+DEBUG:PIL.TiffImagePlugin:tag: ExifVersion (36864) - type: undefined (7) - value: b'0221'
+DEBUG:PIL.TiffImagePlugin:tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 244 - Data Location: 564 - value: b'2021:04:14 10:04:04\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTImeDigitized (36868) - type: string (2) Tag Location: 256 - Data Location: 584 - value: b'2021:04:14 10:04:04\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ShutterSpeedValue (37377) - type: signed rational (10) Tag Location: 280 - Data Location: 604 - value: b'\x00\x01\x81\x84\x00\x00^\xfb'
+DEBUG:PIL.TiffImagePlugin:tag: ApertureValue (37378) - type: rational (5) Tag Location: 292 - Data Location: 612 - value: b'\x00\x02\xd5\x0b\x00\x01>\xb3'
+DEBUG:PIL.TiffImagePlugin:tag: BrightnessValue (37379) - type: signed rational (10) Tag Location: 304 - Data Location: 620 - value: b'\xff\xff\x9cY\x00\x00Vg'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 316 - Data Location: 628 - value: b'\x00\x00\x00\x00\x00\x00\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: MeteringMode (37383) - type: short (3) - value: b'\x00\x05'
+DEBUG:PIL.TiffImagePlugin:tag: Flash (37385) - type: short (3) - value: b'\x00 '
+DEBUG:PIL.TiffImagePlugin:tag: FocalLength (37386) - type: rational (5) Tag Location: 352 - Data Location: 636 - value: b'\x00\x00\x005\x00\x00\x00\x14'
+DEBUG:PIL.TiffImagePlugin:tag: MakerNote (37500) - type: undefined (7) Tag Location: 364 - Data Location: 644 - value: <table: 336 bytes>
+DEBUG:PIL.TiffImagePlugin:tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'805\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'805\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+DEBUG:PIL.TiffImagePlugin:tag: ColorSpace (40961) - type: short (3) - value: b'\x00\x01'
+DEBUG:PIL.TiffImagePlugin:tag: PixelXDimension (40962) - type: long (4) - value: b'\x00\x00\x03\xc0'
+DEBUG:PIL.TiffImagePlugin:tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x00\x05\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SensingMethod (41495) - type: short (3) - value: b'\x00\x02'
+DEBUG:PIL.TiffImagePlugin:tag: SceneType (41729) - type: undefined (7) - value: b'\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x1f'
+DEBUG:PIL.TiffImagePlugin:tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: LensSpecification (42034) - type: rational (5) Tag Location: 520 - Data Location: 980 - value: b'\x00\x153&\x00\x07\xff\xfb\x00\x153&\x00\x07\xff\xfb\x00\x00\x00\x0b\x00\x00\x00\x05\x00\x00\x00\x0b\x00\x00\x00\x05'
+DEBUG:PIL.TiffImagePlugin:tag: LensMake (42035) - type: string (2) Tag Location: 532 - Data Location: 1012 - value: b'Apple\x00'
+DEBUG:PIL.TiffImagePlugin:tag: LensModel (42036) - type: string (2) Tag Location: 544 - Data Location: 1018 - value: <table: 35 bytes>
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:27:36] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+DEBUG:PIL.TiffImagePlugin:tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 218 - value: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 250 - value: b'TECNO MOBILE LIMITED\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 282 - value: b'TECNO CD7\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Orientation (274) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 314 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 322 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 106 - Data Location: 330 - value: b'MediaTek Camera Application\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTime (306) - type: string (2) Tag Location: 118 - Data Location: 362 - value: b'2021:04:25 08:28:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (544) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (545) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (546) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (547) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (548) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (549) - type: string (2) Tag Location: 202 - Data Location: 382 - value: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExifIFD (34665) - type: long (4) - value: b'\x9e\x01\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureTime (33434) - type: rational (5) Tag Location: 428 - Data Location: 768 - value: b"\r'\x00\x00@B\x0f\x00"
+DEBUG:PIL.TiffImagePlugin:tag: FNumber (33437) - type: rational (5) Tag Location: 440 - Data Location: 776 - value: b'\xd0\x07\x00\x00\xe8\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\xd2\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExifVersion (36864) - type: undefined (7) - value: b'0220'
+DEBUG:PIL.TiffImagePlugin:tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 488 - Data Location: 784 - value: b'2021:04:25 08:28:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTImeDigitized (36868) - type: string (2) Tag Location: 500 - Data Location: 804 - value: b'2021:04:25 08:28:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36880) - type: string (2) Tag Location: 512 - Data Location: 824 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36881) - type: string (2) Tag Location: 524 - Data Location: 831 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36882) - type: string (2) Tag Location: 536 - Data Location: 838 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 560 - Data Location: 845 - value: b'\x00\x00\x00\x00\n\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: MeteringMode (37383) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: LightSource (37384) - type: short (3) - value: b'\xff\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Flash (37385) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLength (37386) - type: rational (5) Tag Location: 608 - Data Location: 853 - value: b'\x1a\x0e\x00\x00\xe8\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SubSec (37520) - type: string (2) - value: b'57'
+DEBUG:PIL.TiffImagePlugin:tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'57'
+DEBUG:PIL.TiffImagePlugin:tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'57'
+DEBUG:PIL.TiffImagePlugin:tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+DEBUG:PIL.TiffImagePlugin:tag: ColorSpace (40961) - type: short (3) - value: b'\x01\x00'
+DEBUG:PIL.TiffImagePlugin:tag: PixelXDimension (40962) - type: long (4) - value: b'\x80\r\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x12\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: InteroperabilityIFD (40965) - type: long (4) - value: b'\xdb\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DigitalZoomRatio (41988) - type: rational (5) Tag Location: 740 - Data Location: 861 - value: b'd\x00\x00\x00d\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x1c\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:28:13] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:29:54] "[31m[1mPOST /face_verification HTTP/1.1[0m" 400 -
+DEBUG:PIL.TiffImagePlugin:tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 218 - value: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 250 - value: b'TECNO MOBILE LIMITED\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 282 - value: b'TECNO CD7\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Orientation (274) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 314 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 322 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 106 - Data Location: 330 - value: b'MediaTek Camera Application\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTime (306) - type: string (2) Tag Location: 118 - Data Location: 362 - value: b'2021:04:25 08:28:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (544) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (545) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (546) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (547) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (548) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (549) - type: string (2) Tag Location: 202 - Data Location: 382 - value: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExifIFD (34665) - type: long (4) - value: b'\x9e\x01\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureTime (33434) - type: rational (5) Tag Location: 428 - Data Location: 768 - value: b"\r'\x00\x00@B\x0f\x00"
+DEBUG:PIL.TiffImagePlugin:tag: FNumber (33437) - type: rational (5) Tag Location: 440 - Data Location: 776 - value: b'\xd0\x07\x00\x00\xe8\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\xd2\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExifVersion (36864) - type: undefined (7) - value: b'0220'
+DEBUG:PIL.TiffImagePlugin:tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 488 - Data Location: 784 - value: b'2021:04:25 08:28:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTImeDigitized (36868) - type: string (2) Tag Location: 500 - Data Location: 804 - value: b'2021:04:25 08:28:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36880) - type: string (2) Tag Location: 512 - Data Location: 824 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36881) - type: string (2) Tag Location: 524 - Data Location: 831 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36882) - type: string (2) Tag Location: 536 - Data Location: 838 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 560 - Data Location: 845 - value: b'\x00\x00\x00\x00\n\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: MeteringMode (37383) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: LightSource (37384) - type: short (3) - value: b'\xff\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Flash (37385) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLength (37386) - type: rational (5) Tag Location: 608 - Data Location: 853 - value: b'\x1a\x0e\x00\x00\xe8\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SubSec (37520) - type: string (2) - value: b'57'
+DEBUG:PIL.TiffImagePlugin:tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'57'
+DEBUG:PIL.TiffImagePlugin:tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'57'
+DEBUG:PIL.TiffImagePlugin:tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+DEBUG:PIL.TiffImagePlugin:tag: ColorSpace (40961) - type: short (3) - value: b'\x01\x00'
+DEBUG:PIL.TiffImagePlugin:tag: PixelXDimension (40962) - type: long (4) - value: b'\x80\r\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x12\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: InteroperabilityIFD (40965) - type: long (4) - value: b'\xdb\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DigitalZoomRatio (41988) - type: rational (5) Tag Location: 740 - Data Location: 861 - value: b'd\x00\x00\x00d\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x1c\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:31:17] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:31:39] "[31m[1mPOST /face_verification HTTP/1.1[0m" 400 -
+DEBUG:PIL.TiffImagePlugin:tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 218 - value: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 250 - value: b'INFINIX MOBILITY LIMITED\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 282 - value: b'Infinix X690\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Orientation (274) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 314 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 322 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 106 - Data Location: 330 - value: b'MediaTek Camera Application\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTime (306) - type: string (2) Tag Location: 118 - Data Location: 362 - value: b'2021:04:16 21:55:42\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (544) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (545) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (546) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (547) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (548) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (549) - type: string (2) Tag Location: 202 - Data Location: 382 - value: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExifIFD (34665) - type: long (4) - value: b'\x9e\x01\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureTime (33434) - type: rational (5) Tag Location: 428 - Data Location: 768 - value: b'.u\x00\x00@B\x0f\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FNumber (33437) - type: rational (5) Tag Location: 440 - Data Location: 776 - value: b'\xd0\x07\x00\x00\xe8\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\xc8\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ExifVersion (36864) - type: undefined (7) - value: b'0220'
+DEBUG:PIL.TiffImagePlugin:tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 488 - Data Location: 784 - value: b'2021:04:16 21:55:42\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTImeDigitized (36868) - type: string (2) Tag Location: 500 - Data Location: 804 - value: b'2021:04:16 21:55:42\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36880) - type: string (2) Tag Location: 512 - Data Location: 824 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36881) - type: string (2) Tag Location: 524 - Data Location: 831 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36882) - type: string (2) Tag Location: 536 - Data Location: 838 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 560 - Data Location: 845 - value: b'\x00\x00\x00\x00\n\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: MeteringMode (37383) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: LightSource (37384) - type: short (3) - value: b'\xff\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Flash (37385) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLength (37386) - type: rational (5) Tag Location: 608 - Data Location: 853 - value: b'\x1a\x0e\x00\x00\xe8\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SubSec (37520) - type: string (2) - value: b'28'
+DEBUG:PIL.TiffImagePlugin:tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'28'
+DEBUG:PIL.TiffImagePlugin:tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'28'
+DEBUG:PIL.TiffImagePlugin:tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+DEBUG:PIL.TiffImagePlugin:tag: ColorSpace (40961) - type: short (3) - value: b'\x01\x00'
+DEBUG:PIL.TiffImagePlugin:tag: PixelXDimension (40962) - type: long (4) - value: b'\x80\r\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x12\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: InteroperabilityIFD (40965) - type: long (4) - value: b'\xdb\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DigitalZoomRatio (41988) - type: rational (5) Tag Location: 740 - Data Location: 861 - value: b'd\x00\x00\x00d\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x1c\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:32:14] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/Face-project/face_verification/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-214-445
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:33:01] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:33:03] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:33:21] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:33:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:33:42] "[37mHEAD / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:33:56] "[37mHEAD /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:34:05] "[37mGET /face_verification HTTP/1.1[0m" 200 -
+DEBUG:PIL.TiffImagePlugin:tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 218 - value: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 250 - value: b'INFINIX MOBILITY LIMITED\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 282 - value: b'Infinix X690\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Orientation (274) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 314 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 322 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 106 - Data Location: 330 - value: b'MediaTek Camera Application\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTime (306) - type: string (2) Tag Location: 118 - Data Location: 362 - value: b'2021:04:16 21:55:42\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (544) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (545) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (546) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (547) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (548) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (549) - type: string (2) Tag Location: 202 - Data Location: 382 - value: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExifIFD (34665) - type: long (4) - value: b'\x9e\x01\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureTime (33434) - type: rational (5) Tag Location: 428 - Data Location: 768 - value: b'.u\x00\x00@B\x0f\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FNumber (33437) - type: rational (5) Tag Location: 440 - Data Location: 776 - value: b'\xd0\x07\x00\x00\xe8\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\xc8\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ExifVersion (36864) - type: undefined (7) - value: b'0220'
+DEBUG:PIL.TiffImagePlugin:tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 488 - Data Location: 784 - value: b'2021:04:16 21:55:42\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTImeDigitized (36868) - type: string (2) Tag Location: 500 - Data Location: 804 - value: b'2021:04:16 21:55:42\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36880) - type: string (2) Tag Location: 512 - Data Location: 824 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36881) - type: string (2) Tag Location: 524 - Data Location: 831 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36882) - type: string (2) Tag Location: 536 - Data Location: 838 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 560 - Data Location: 845 - value: b'\x00\x00\x00\x00\n\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: MeteringMode (37383) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: LightSource (37384) - type: short (3) - value: b'\xff\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Flash (37385) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLength (37386) - type: rational (5) Tag Location: 608 - Data Location: 853 - value: b'\x1a\x0e\x00\x00\xe8\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SubSec (37520) - type: string (2) - value: b'28'
+DEBUG:PIL.TiffImagePlugin:tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'28'
+DEBUG:PIL.TiffImagePlugin:tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'28'
+DEBUG:PIL.TiffImagePlugin:tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+DEBUG:PIL.TiffImagePlugin:tag: ColorSpace (40961) - type: short (3) - value: b'\x01\x00'
+DEBUG:PIL.TiffImagePlugin:tag: PixelXDimension (40962) - type: long (4) - value: b'\x80\r\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x12\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: InteroperabilityIFD (40965) - type: long (4) - value: b'\xdb\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DigitalZoomRatio (41988) - type: rational (5) Tag Location: 740 - Data Location: 861 - value: b'd\x00\x00\x00d\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x1c\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:34:39] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/Users/mac/Desktop/Face-project/face_verification/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 193-572-413
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:51:40] "[35m[1mPOST /face_verification HTTP/1.1[0m" 500 -
+DEBUG:PIL.TiffImagePlugin:tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 218 - value: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 250 - value: b'INFINIX MOBILITY LIMITED\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 282 - value: b'Infinix X690\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Orientation (274) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 314 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 322 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 106 - Data Location: 330 - value: b'MediaTek Camera Application\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTime (306) - type: string (2) Tag Location: 118 - Data Location: 362 - value: b'2021:04:16 21:55:42\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (544) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (545) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (546) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (547) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (548) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (549) - type: string (2) Tag Location: 202 - Data Location: 382 - value: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExifIFD (34665) - type: long (4) - value: b'\x9e\x01\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureTime (33434) - type: rational (5) Tag Location: 428 - Data Location: 768 - value: b'.u\x00\x00@B\x0f\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FNumber (33437) - type: rational (5) Tag Location: 440 - Data Location: 776 - value: b'\xd0\x07\x00\x00\xe8\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\xc8\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ExifVersion (36864) - type: undefined (7) - value: b'0220'
+DEBUG:PIL.TiffImagePlugin:tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 488 - Data Location: 784 - value: b'2021:04:16 21:55:42\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTImeDigitized (36868) - type: string (2) Tag Location: 500 - Data Location: 804 - value: b'2021:04:16 21:55:42\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36880) - type: string (2) Tag Location: 512 - Data Location: 824 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36881) - type: string (2) Tag Location: 524 - Data Location: 831 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36882) - type: string (2) Tag Location: 536 - Data Location: 838 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 560 - Data Location: 845 - value: b'\x00\x00\x00\x00\n\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: MeteringMode (37383) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: LightSource (37384) - type: short (3) - value: b'\xff\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Flash (37385) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLength (37386) - type: rational (5) Tag Location: 608 - Data Location: 853 - value: b'\x1a\x0e\x00\x00\xe8\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SubSec (37520) - type: string (2) - value: b'28'
+DEBUG:PIL.TiffImagePlugin:tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'28'
+DEBUG:PIL.TiffImagePlugin:tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'28'
+DEBUG:PIL.TiffImagePlugin:tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+DEBUG:PIL.TiffImagePlugin:tag: ColorSpace (40961) - type: short (3) - value: b'\x01\x00'
+DEBUG:PIL.TiffImagePlugin:tag: PixelXDimension (40962) - type: long (4) - value: b'\x80\r\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x12\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: InteroperabilityIFD (40965) - type: long (4) - value: b'\xdb\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DigitalZoomRatio (41988) - type: rational (5) Tag Location: 740 - Data Location: 861 - value: b'd\x00\x00\x00d\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x1c\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:53:54] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+DEBUG:PIL.TiffImagePlugin:tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 218 - value: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 250 - value: b'INFINIX MOBILITY LIMITED\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 282 - value: b'Infinix X625C\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Orientation (274) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 314 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 322 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 106 - Data Location: 330 - value: b'MediaTek Camera Application\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTime (306) - type: string (2) Tag Location: 118 - Data Location: 362 - value: b'2021:04:26 10:38:49\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (544) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (545) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (546) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (547) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (548) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (549) - type: string (2) Tag Location: 202 - Data Location: 382 - value: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExifIFD (34665) - type: long (4) - value: b'\x9e\x01\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureTime (33434) - type: rational (5) Tag Location: 428 - Data Location: 732 - value: b'p\x11\x01\x00@B\x0f\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FNumber (33437) - type: rational (5) Tag Location: 440 - Data Location: 740 - value: b'\x14\x00\x00\x00\n\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ISOSpeedRatings (34855) - type: short (3) - value: b'f\x04'
+DEBUG:PIL.TiffImagePlugin:tag: ExifVersion (36864) - type: undefined (7) - value: b'0220'
+DEBUG:PIL.TiffImagePlugin:tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 488 - Data Location: 748 - value: b'2021:04:26 10:38:49\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTImeDigitized (36868) - type: string (2) Tag Location: 500 - Data Location: 768 - value: b'2021:04:26 10:38:49\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 524 - Data Location: 788 - value: b'\x00\x00\x00\x00\n\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: MeteringMode (37383) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: LightSource (37384) - type: short (3) - value: b'\xff\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Flash (37385) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLength (37386) - type: rational (5) Tag Location: 572 - Data Location: 796 - value: b'z\r\x00\x00\xe8\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SubSec (37520) - type: string (2) - value: b'83'
+DEBUG:PIL.TiffImagePlugin:tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'83'
+DEBUG:PIL.TiffImagePlugin:tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'83'
+DEBUG:PIL.TiffImagePlugin:tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+DEBUG:PIL.TiffImagePlugin:tag: ColorSpace (40961) - type: short (3) - value: b'\x01\x00'
+DEBUG:PIL.TiffImagePlugin:tag: PixelXDimension (40962) - type: long (4) - value: b'\x80\x07\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: PixelYDimension (40963) - type: long (4) - value: b'\xa0\x0f\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: InteroperabilityIFD (40965) - type: long (4) - value: b'\xa2\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DigitalZoomRatio (41988) - type: rational (5) Tag Location: 704 - Data Location: 804 - value: b'd\x00\x00\x00d\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:55:50] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
+DEBUG:PIL.TiffImagePlugin:tag: ImageDescription (270) - type: string (2) Tag Location: 22 - Data Location: 218 - value: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Make (271) - type: string (2) Tag Location: 34 - Data Location: 250 - value: b'INFINIX MOBILITY LIMITED\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Model (272) - type: string (2) Tag Location: 46 - Data Location: 282 - value: b'Infinix X690\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Orientation (274) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: XResolution (282) - type: rational (5) Tag Location: 70 - Data Location: 314 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YResolution (283) - type: rational (5) Tag Location: 82 - Data Location: 322 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Software (305) - type: string (2) Tag Location: 106 - Data Location: 330 - value: b'MediaTek Camera Application\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTime (306) - type: string (2) Tag Location: 118 - Data Location: 362 - value: b'2021:04:16 21:55:42\x00'
+DEBUG:PIL.TiffImagePlugin:tag: YCbCrPositioning (531) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (544) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (545) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (546) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (547) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (548) - type: long (4) - value: b'\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (549) - type: string (2) Tag Location: 202 - Data Location: 382 - value: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExifIFD (34665) - type: long (4) - value: b'\x9e\x01\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureTime (33434) - type: rational (5) Tag Location: 428 - Data Location: 768 - value: b'.u\x00\x00@B\x0f\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FNumber (33437) - type: rational (5) Tag Location: 440 - Data Location: 776 - value: b'\xd0\x07\x00\x00\xe8\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureProgram (34850) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ISOSpeedRatings (34855) - type: short (3) - value: b'\xc8\x01'
+DEBUG:PIL.TiffImagePlugin:tag: ExifVersion (36864) - type: undefined (7) - value: b'0220'
+DEBUG:PIL.TiffImagePlugin:tag: DateTimeOriginal (36867) - type: string (2) Tag Location: 488 - Data Location: 784 - value: b'2021:04:16 21:55:42\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DateTImeDigitized (36868) - type: string (2) Tag Location: 500 - Data Location: 804 - value: b'2021:04:16 21:55:42\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36880) - type: string (2) Tag Location: 512 - Data Location: 824 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36881) - type: string (2) Tag Location: 524 - Data Location: 831 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: unknown (36882) - type: string (2) Tag Location: 536 - Data Location: 838 - value: b'+01:00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ComponentsConfiguration (37121) - type: undefined (7) - value: b'\x01\x02\x03\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureBiasValue (37380) - type: signed rational (10) Tag Location: 560 - Data Location: 845 - value: b'\x00\x00\x00\x00\n\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: MeteringMode (37383) - type: short (3) - value: b'\x02\x00'
+DEBUG:PIL.TiffImagePlugin:tag: LightSource (37384) - type: short (3) - value: b'\xff\x00'
+DEBUG:PIL.TiffImagePlugin:tag: Flash (37385) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLength (37386) - type: rational (5) Tag Location: 608 - Data Location: 853 - value: b'\x1a\x0e\x00\x00\xe8\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SubSec (37520) - type: string (2) - value: b'28'
+DEBUG:PIL.TiffImagePlugin:tag: SubSecTimeOriginal (37521) - type: string (2) - value: b'28'
+DEBUG:PIL.TiffImagePlugin:tag: SubsecTimeDigitized (37522) - type: string (2) - value: b'28'
+DEBUG:PIL.TiffImagePlugin:tag: FlashPixVersion (40960) - type: undefined (7) - value: b'0100'
+DEBUG:PIL.TiffImagePlugin:tag: ColorSpace (40961) - type: short (3) - value: b'\x01\x00'
+DEBUG:PIL.TiffImagePlugin:tag: PixelXDimension (40962) - type: long (4) - value: b'\x80\r\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: PixelYDimension (40963) - type: long (4) - value: b'\x00\x12\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: InteroperabilityIFD (40965) - type: long (4) - value: b'\xdb\x03\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: ExposureMode (41986) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: WhiteBalance (41987) - type: short (3) - value: b'\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: DigitalZoomRatio (41988) - type: rational (5) Tag Location: 740 - Data Location: 861 - value: b'd\x00\x00\x00d\x00\x00\x00'
+DEBUG:PIL.TiffImagePlugin:tag: FocalLengthIn35mmFilm (41989) - type: short (3) - value: b'\x1c\x00'
+DEBUG:PIL.TiffImagePlugin:tag: SceneCaptureType (41990) - type: short (3) - value: b'\x00\x00'
+INFO:werkzeug:127.0.0.1 - - [21/May/2021 03:58:51] "[37mPOST /face_verification HTTP/1.1[0m" 200 -
