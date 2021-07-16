@@ -93,3 +93,10 @@ http://localhost:5002/face_verification
 Select `Post Request` and click send.
 
 
+#### Projects Page
+<p align="center"> 
+  <kbd>
+    <a href="https://okoliechykwuka.github.io/portfolio/" target="_blank"><img src="website/Projectpage.JPG">
+  </a>
+  </kbd>
+</p>
