@@ -5,8 +5,9 @@ This is Face Verification endpoint to verify images from a Phone Selfie vs BVN
 All responses will have the form
 ```
 {
-    "Name": Name_of_customer,
+    
     "distance": 0.424,
+    "message": "verified successfully",
     "verify": boolean value(true/false)
 }
 ```
